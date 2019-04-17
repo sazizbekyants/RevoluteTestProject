@@ -11,6 +11,14 @@ import XCTest
 
 class RevoluteTestProjectTests: XCTestCase {
 
+    func testCurrencyCell_shouldDisplayCorrectFullName() {
+        
+        let currency  = CurrencyContry(imageUrl: MockImageCache(), countryShortName: "", countryFullName: "EURO")
+        let viewModel = CurrencyCellViewModel(currency: currency, isDisabled: false)
+        
+        XCTAssertEqual(viewModel.countryShortName,"EUR")
+    }
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }

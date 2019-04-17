@@ -4,7 +4,7 @@
 
 import Foundation
 
-final class Client {
+ class Client {
     
     // MARK: - Errors
     public enum Errors: Error {

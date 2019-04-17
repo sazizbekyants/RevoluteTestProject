@@ -26,6 +26,9 @@
 		35801925225CB82400B04A39 /* AddedCurrencyTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35801924225CB82400B04A39 /* AddedCurrencyTableViewCellModel.swift */; };
 		35801929225CBF5C00B04A39 /* CellRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35801927225CBF5C00B04A39 /* CellRepresentable.swift */; };
 		3580192A225CBF5C00B04A39 /* CellIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35801928225CBF5C00B04A39 /* CellIdentifiable.swift */; };
+		35ADE90A2267654300C30EE7 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADE9092267654300C30EE7 /* Mocks.swift */; };
+		35ADE90B2267654300C30EE7 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADE9092267654300C30EE7 /* Mocks.swift */; };
+		35ADE90C2267654300C30EE7 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADE9092267654300C30EE7 /* Mocks.swift */; };
 		35C901C122649BDF00541F9E /* AddedCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C901C022649BDE00541F9E /* AddedCurrency.swift */; };
 		35C901C82264DAD100541F9E /* AddedCurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C901C62264DAD100541F9E /* AddedCurrencyTableViewCell.swift */; };
 		35C901D22265C3CE00541F9E /* AddedCurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35C901C72264DAD100541F9E /* AddedCurrencyTableViewCell.xib */; };
@@ -86,6 +89,7 @@
 		35801924225CB82400B04A39 /* AddedCurrencyTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedCurrencyTableViewCellModel.swift; sourceTree = "<group>"; };
 		35801927225CBF5C00B04A39 /* CellRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellRepresentable.swift; sourceTree = "<group>"; };
 		35801928225CBF5C00B04A39 /* CellIdentifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellIdentifiable.swift; sourceTree = "<group>"; };
+		35ADE9092267654300C30EE7 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
 		35C901C022649BDE00541F9E /* AddedCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedCurrency.swift; sourceTree = "<group>"; };
 		35C901C62264DAD100541F9E /* AddedCurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedCurrencyTableViewCell.swift; sourceTree = "<group>"; };
 		35C901C72264DAD100541F9E /* AddedCurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddedCurrencyTableViewCell.xib; sourceTree = "<group>"; };
@@ -221,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				3541510122575A6D007F300E /* RevoluteTestProjectTests.swift */,
+				35ADE9092267654300C30EE7 /* Mocks.swift */,
 				3541510322575A6D007F300E /* Info.plist */,
 			);
 			path = RevoluteTestProjectTests;
@@ -313,7 +318,6 @@
 				AA5A3173C96CE109C5240DFC /* Pods-RevoluteTestProjectTests.debug.xcconfig */,
 				000A64A4E755E419C2771CBF /* Pods-RevoluteTestProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -529,6 +533,7 @@
 				35DF480A225B6DF500060846 /* CurrencyModel.swift in Sources */,
 				35801914225C9D0500B04A39 /* RCurrenciesListViewController.swift in Sources */,
 				35801929225CBF5C00B04A39 /* CellRepresentable.swift in Sources */,
+				35ADE90A2267654300C30EE7 /* Mocks.swift in Sources */,
 				3533BB8B225F7CEB00D301A4 /* AddedCurrenciesModelView.swift in Sources */,
 				3580191C225CB43100B04A39 /* CurrencyTableViewCell.swift in Sources */,
 				35DF47F0225B34EF00060846 /* JSONObject.swift in Sources */,
@@ -540,6 +545,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3541510222575A6D007F300E /* RevoluteTestProjectTests.swift in Sources */,
+				35ADE90B2267654300C30EE7 /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +554,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3541510D22575A6D007F300E /* RevoluteTestProjectUITests.swift in Sources */,
+				35ADE90C2267654300C30EE7 /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

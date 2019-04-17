@@ -40,10 +40,10 @@ class RAddedCurrenciesListViewController: UIViewController ,SwapRootViewControll
 
     
     func doSwapRootViewControllerWithNewOne(data: Dictionary<String,Any>) {
-        
-        var tempDictinary = self.countryDictionary as Dictionary
-        tempDictinary.update(other: data as Dictionary<String,Any> as Dictionary<NSObject, AnyObject>)
-        self.countryDictionary = tempDictinary as NSDictionary
+//        var tempDictinary = self.countryDictionary as Dictionary
+//        tempDictinary.update(other: data as Dictionary<String,Any> as Dictionary<NSObject, AnyObject>)
+//        self.countryDictionary = tempDictinary as NSDictionary
+        self.countryDictionary = data as NSDictionary
         self.reloadData()
     }
     
